@@ -1,2 +1,2 @@
-# Responsive_Bootstrap
-Responsive portfolio using Bootstrap
+# Responsive_Media
+Responsive portfolio using media query
