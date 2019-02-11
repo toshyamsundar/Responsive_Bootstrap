@@ -92,6 +92,12 @@ div.pimg3 {
   min-height: 300px;
 }
 
+.brdr {
+  background-color: rgba(11, 11, 51, 0.5);
+  color: rgb(4, 194, 201);
+  padding: 1rem;
+}
+
 /* This is the for the caption that appears on the images */
 
 /* .maincaption {
