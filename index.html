@@ -5,31 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
     />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <title>Shyam</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="pimg" id="home">
-        <div class="maincaption">
-          <p>Hey, I'm Shyam</p>
-          <p>I'm a Web Developer</p>
+    <div class="container-fluid">
+      <div class="pimg row" id="home">
+        <div class="column col-12 hero-text">
+          <h1>Hey, I'm Shyam</h1>
+          <p>And I'm a Web Developer</p>
         </div>
       </div>
+    </div>
 
-      <nav class="flex" id="nbar">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#workSection">PORTFOLIO</a>
-        <a href="#connect">CONTACT</a>
-      </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top border-bottom border-dark" id="nbar">
+      <div class="container-fluid d-flex justify-content-around">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workSection">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#connect">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-      <div class="pimg1">
+    <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="column col-12 col-md-6">
+          <img class="img-fluid img-thumbnail" src="./assets/images/MyPortfolioPic.jpg" alt="" />
+        </div>
+        <div class="column col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+          <p>I live in Toronto, a city that I love</p>
+          <p>I'm a software consultant and an aspiring Web Developer</p>
+          <p>I specialize in implementing Actimize products that help in detecting financial crimes</p>
+          <p>I can code in Perl, Shell and PL/SQL</p>
+          <p>I like working with data and understanding data relationships</p>
+          <p>I love to travel and my favorite sport is Cricket</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row pimg2">
+        <div class="column col-12 d-flex justify-content-center align-items-center">
+          <h2>My Work</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="pimg1">
         <div class="caption">
           <span class="border">About Me</span>
         </div>
@@ -106,7 +159,6 @@
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-facebook"></a>
         </div>
-      </div>
-    </div>
+      </div> -->
   </body>
 </html>
