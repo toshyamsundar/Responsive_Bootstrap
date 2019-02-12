@@ -1,2 +1,9 @@
-# Responsive_Media
-Responsive portfolio using media query
+# Responsive_Bootstrap
+
+Responsive portfolio using Bootstrap
+
+├── assets  
+| ├── css  
+| | └── style.css  
+| ├── images  
+└── index.html
