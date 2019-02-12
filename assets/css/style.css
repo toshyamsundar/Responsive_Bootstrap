@@ -36,10 +36,13 @@
   color: rgb(4, 194, 201);
   text-shadow: 1px 1px 1px #000;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio {
   background-color: #343a40;
+  width: 100%;
 }
 
 h2 {
