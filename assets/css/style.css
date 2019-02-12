@@ -1,8 +1,6 @@
 /* This section is to remove padding from the container-fluid class */
 .container-fluid {
   padding: 0;
-  margin: 0;
-  border: 0;
 }
 
 /* Background Images */
@@ -42,7 +40,6 @@
 
 .portfolio {
   background-color: #343a40;
-  width: 100%;
 }
 
 h2 {
@@ -65,10 +62,19 @@ h2 {
   border: 1px solid rgb(4, 194, 201);
 }
 
+p {
+  font-size: 1.8 rem;
+  line-height: 1.8rem;
+}
+
 .portfolio > .row > .column > a > img:hover {
   box-shadow: 3px 3px 3px rgb(4, 194, 201);
   transform: rotate(-5deg);
   transition: 0.7s ease;
+}
+
+li a:hover {
+  box-shadow: 2px 2px 2px rgb(4, 194, 201);
 }
 
 /* This is for the Contact Me section using flex to position icons */
