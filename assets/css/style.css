@@ -18,7 +18,7 @@
 
 .bgimg3 {
   background: url("../images/Contact.jpg");
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .bgimg1,
@@ -68,6 +68,10 @@ p {
   line-height: 1.8rem;
 }
 
+.grad {
+  background-image: linear-gradient(to right, rgba(113, 116, 119, 0), rgba(52, 58, 64, 1));
+}
+
 .portfolio > .row > .column > a > img:hover {
   box-shadow: 2px 2px 2px rgb(4, 194, 201);
   transform: rotate(-5deg);
@@ -77,6 +81,11 @@ p {
 li a:hover {
   box-shadow: 2px 2px 2px rgb(4, 194, 201);
 }
+
+/* .footer {
+  position: relative;
+  z-index: 1;
+} */
 
 /* This is for the Contact Me section using flex to position icons */
 
