@@ -6,7 +6,7 @@
 /* Background Images */
 
 .bgimg1 {
-  background-image: url(../images/air_balloon.jpg);
+  background-image: url("../images/air_balloon.jpg");
   height: 100vh;
   letter-spacing: 0.2rem;
 }
@@ -59,7 +59,8 @@ h2 {
 
 .img-thumbnail {
   padding: 0;
-  border: 1px solid rgb(4, 194, 201);
+  /* border: 1px solid rgb(4, 194, 201); */
+  border: 0;
 }
 
 p {
@@ -68,7 +69,7 @@ p {
 }
 
 .portfolio > .row > .column > a > img:hover {
-  box-shadow: 3px 3px 3px rgb(4, 194, 201);
+  box-shadow: 2px 2px 2px rgb(4, 194, 201);
   transform: rotate(-5deg);
   transition: 0.7s ease;
 }
@@ -121,6 +122,10 @@ li a:hover {
   color: white;
 }
 
+.fa-copyright {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* Reduce the height of bgimage sections on small screens */
 
 @media screen and (max-width: 768px) {
@@ -129,22 +134,4 @@ li a:hover {
     background-attachment: scroll;
     min-height: 150px;
   }
-
-  /* .caption {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-
-  .caption .border {
-    background-color: rgba(11, 11, 51, 0.5);
-    color: rgb(4, 194, 201);
-    padding: 0.5rem;
-  } */
 }
