@@ -121,36 +121,16 @@ li a:hover {
   color: white;
 }
 
-/* When viewed on a phone the images will scroll with the page */
+/* Reduce the height of bgimage sections on small screens */
 
-/* @media (max-width: 768px) {
-  #nbar {
-    display: none;
-  }
-
-  body > .container > div.pimg1 {
-    display: block;
-  }
-
-  .section {
-    padding: 30px 50px;
-    letter-spacing: 0.05rem;
-    font-size: 2vw;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-
-/* body > .container > div.pimg1,
-  body > .container > div.pimg2,
-  body > .container > div.pimg3 {
+@media screen and (max-width: 768px) {
+  .bgimg2,
+  .bgimg3 {
     background-attachment: scroll;
     min-height: 150px;
   }
 
-  .caption {
+  /* .caption {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -166,5 +146,5 @@ li a:hover {
     background-color: rgba(11, 11, 51, 0.5);
     color: rgb(4, 194, 201);
     padding: 0.5rem;
-  }
-} */
+  } */
+}
