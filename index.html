@@ -33,18 +33,15 @@
 
   <body>
     <div class="container-fluid">
-      <div class="pimg row" id="home">
-        <div class="column col-12 hero-text">
+      <div class="row bgimg1">
+        <div class="column col-12 d-flex flex-column justify-content-center align-items-center">
           <h1>Hey, I'm Shyam</h1>
-          <p>And I'm a Web Developer</p>
+          <h3>And I'm a Web Developer</h3>
         </div>
       </div>
 
-      <nav
-        class="navbar navbar-expand-md navbar-light bg-light sticky-top border-bottom border-dark d-flex justify-content-around"
-        id="nbar"
-      >
-        <ul class="navbar-nav">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top border-bottom border-light">
+        <ul class="nav navbar-nav w-100 d-flex justify-content-around">
           <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#about">ABOUT</a>
@@ -58,11 +55,11 @@
         </ul>
       </nav>
 
-      <div class="row" id="about">
-        <div class="column col-12 col-md-6">
-          <img class="img-fluid img-thumbnail" src="./assets/images/MyPortfolioPic.jpg" alt="" />
+      <div class="row m-0" id="about">
+        <div class="column col-12 col-md-6 p-0">
+          <img class="img-thumbnail" src="./assets/images/MyPortfolioPic.jpg" alt="" />
         </div>
-        <div class="column col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="column col-12 col-md-6 d-flex flex-column justify-content-center align-items-center p-0">
           <p>I live in Toronto, a city that I love</p>
           <p>I'm a software consultant and an aspiring Web Developer</p>
           <p>I specialize in implementing Actimize products that help in detecting financial crimes</p>
@@ -72,63 +69,51 @@
         </div>
       </div>
 
-      <div class="row pimg2">
+      <div class="row bgimg2" id="workSection">
         <div class="column col-12 d-flex justify-content-center align-items-center">
-          <h2 class="brdr">My Work</h2>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="portfolio" id="workSection">
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=node.js" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=HTML" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=CSS" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=React" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=MongoDB" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=Bootstrap" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=CSS Grid" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=RESTful" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=JavaScript" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=Flexbox" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=Java" />
-        </div>
-        <div class="portfolio-item">
-          <img src="https://via.placeholder.com/360?text=Express.js" />
+          <h2 class="capbrdr">My Work</h2>
         </div>
       </div>
 
-      <div class="pimg3 contact">
-        <div id="connect">
-          <a
-            href="https://www.linkedin.com/in/shyam-sunder-lakshmanan/"
-            class="fa fa-linkedin"
-            target="_blank"
-          ></a>
+      <div class="portfolio p-2 m-0">
+        <div class="row p-4">
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_1.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_1.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_1.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_1.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+        </div>
+        <div class="row p-4">
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_2.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_2.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_2.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+          <div class="column col-12 col-sm-6 col-md-6 col-lg-3 p-1">
+            <a href="#"><img src="./assets/images/img_2.jpg" alt="" class="img-thumbnail"/></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bgimg3 contact">
+        <div class="column col-12 d-flex justify-content-center align-items-center" id="connect">
+          <a href="https://www.linkedin.com/in/shyam-sunder-lakshmanan/" class="fa fa-linkedin" target="_blank"></a>
           <a href="#" class="fa fa-envelope"></a>
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-facebook"></a>
         </div>
-      </div> -->
+      </div>
+    </div>
   </body>
 </html>
